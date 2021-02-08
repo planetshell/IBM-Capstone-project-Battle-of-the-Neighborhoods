@@ -49,3 +49,9 @@ As previously mentioned, our goal is to find the neighborhood that’s closest t
 
 •	Use the Python Folium map library to the visualize and analyze the clusters 
 
+### C.1 Data Visualization 
+
+Now let visualize and analyze the map of Queens neighborhoods
+
+<img src="Map of Queens Neighborhoods.JPG" width=400>
+
