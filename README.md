@@ -24,4 +24,28 @@ Location data and hotel data was acquired from the following two locations:
 •	Hotel data was acquired from the Four-Square location and venue platform www.foursquare.com 
 
 ### B.2 Data Exploration & Cleaning
-The neighborhood data downloaded from the NYU website comes in JSON format and has the coordinates of all neighborhoods in all five boroughs in New York city. Since our focus is on the boroughs of Queens and Manhattan, the original dataset was cleaned and reduced to just the neighborhoods in Queens. The following data frame consisting of the Borough, Neighborhood, Latitude and Longitude was created. 
+The neighborhood data downloaded from the NYU website comes in JSON format and has the coordinates of all neighborhoods in all five boroughs in New York city. Since our focus is on the boroughs of Queens and Manhattan, the original dataset was cleaned and reduced to just the neighborhoods in Queens. The following data frame consisting of the Borough, Neighborhood, Latitude and Longitude was created.
+
+<img src="Queens_Neighborhood table.JPG" width=400>
+
+The hotel data for each Queens neighborhood was obtained from the Four-Square location platform using the coordinates of each neighborhood. A data frame consisting of the hotels in each Queens neighborhood was created  
+
+<img src="Queens_hotel table.JPG" width=200>
+
+## C. Methodology  
+As previously mentioned, our goal is to find the neighborhood that’s closest to mid-town Manhattan with the minimum number of hotels. In the section above we acquired and cleaned the necessary data needed to accomplish this goal. In this section I applied various data science techniques and methods to the data to determine the optimum Queens neighborhood. The following task was performed. 
+
+•	I used the Python Folium map library to visualize and analyze the layout of the Queens neighborhoods relative to midtown Manhattan.   
+
+•	I used the Python Folium map library to visualize and analyze the layout of the Queens hotels relative to midtown Manhattan 
+
+•	Use Matplotlib to create bar charts of the hotels in each Queens neighborhoods for more analysis
+
+•	Use the Haversine formula to calculate the distance from each Queens neighborhood to mid-town Manhattan. This distance data was added to the final feature set for clustering 
+
+•	Combine and normalize all relevant features for clustering 
+
+•	Apply K-means clustering method to the feature set 
+
+•	Use the Python Folium map library to the visualize and analyze the clusters 
+
