@@ -53,5 +53,5 @@ As previously mentioned, our goal is to find the neighborhood that’s closest t
 
 Now let visualize and analyze the map of Queens neighborhoods
 
-<img src="Map of Queens Neighborhoods.JPG" width=400>
+
 
