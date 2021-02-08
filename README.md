@@ -1,8 +1,8 @@
 # IBM CAPSTONE PROJECT 
 ### Battle of the neighborhoods – building a hotel in Queens New York 
+<img src="Queens bridge Cropped.jpg">
 
-
-This project uses data science to determine the optimum Queens neighborhood to build a hotel that can be an alternative for business travelers who can’t afford the more expensive hotels in Manhattan  
+#### This project uses data science to determine the optimum Queens neighborhood to build a hotel that can be an alternative for business travelers who can’t afford the more expensive hotels in Manhattan  
 
 ## A. Introduction
 ### A.1 Background 
