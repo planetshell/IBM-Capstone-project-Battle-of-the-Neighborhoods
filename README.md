@@ -53,5 +53,12 @@ As previously mentioned, our goal is to find the neighborhood that’s closest t
 
 Now let visualize and analyze the map of Queens neighborhoods
 
+<img src="Map2 of Queens Neighborhoods.JPG" width=500>
 
+The above map shows the overall layout of the Queens neighborhoods in blue with respect to mid-town Manhattan in red. As we can see there are a few neighborhoods along the border of Queens and Manhattan that could be good candidates to build a hotel due to their close distance to Manhattan. However other factors such as the number of hotels already existing in these neighborhoods needs to be considered. With that said let’s create a map of the hotels throughout Queens.
 
+<img src="Map of Queens hotels.JPG" width=500>
+
+Interestingly the hotel map shows a large cluster of hotels in the neighborhoods that are close to mid-town Manhattan. Let view neighborhoods with the most hotels on a bar graph.
+
+<img src="Barchart of hotels in Queens.JPG" width=600>
