@@ -79,3 +79,17 @@ Removing all categorical variables from the feature set we now have the followin
 This feature set of only numerical data was normalized and the K-means clustering algorithm applied with K=5. Results of the clusters was merged with the original neighborhood dataset. 
 
 <img src="table of Queens clustered neighborhoods.jpg" width=600>
+
+The above table doesn’t give us much information in its current form. To make more sense of the clusters I applied some statistical method. 
+
+### C.3 Applying Statistical Methods 
+
+I group the clusters in the above table and took the mean of each cluster to get the following result. 
+
+<img src="Mean of the Queens clusters.JPG" width=450>
+
+From this table we can now see which cluster of neighborhoods are ideal to build a hotel in Queens. Going through the table I narrowed the search down to neighborhoods in cluster-0 and cluster-2. Cluster-0 has the closest neighborhoods to Manhattan with an average distance of 2.65 miles. It however have the most hotels. Cluster-2 has the second closest neighborhoods to Manhattan with almost no hotel. So, it appears that neighborhoods in cluster-2 better fits our requirement. Neighborhoods in cluster-2 are listed in the following table. 
+
+
+
+
