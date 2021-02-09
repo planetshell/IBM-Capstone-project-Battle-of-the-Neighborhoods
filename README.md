@@ -90,6 +90,16 @@ I group the clusters in the above table and took the mean of each cluster to get
 
 From this table we can now see which cluster of neighborhoods are ideal to build a hotel in Queens. Going through the table I narrowed the search down to neighborhoods in cluster-0 and cluster-2. Cluster-0 has the closest neighborhoods to Manhattan with an average distance of 2.65 miles. It however have the most hotels. Cluster-2 has the second closest neighborhoods to Manhattan with almost no hotel. So, it appears that neighborhoods in cluster-2 better fits our requirement. Neighborhoods in cluster-2 are listed in the following table. 
 
+<img src="Cluster2 neighborhoods.jpg" width=500>
+
+# D. Results 
+
+After carefully analyzing each cluster it appears that cluster-2 satisfied our condition of neighborhoods closest to Manhattan with the minimum number of hotels. Looking deeper into cluster-2 we can narrow our choices down to neighborhoods with no hotels such as Astoria, Woodside, Steinway, Ravenswood, Jackson Heights, Hunts point and Sunnyside Gardens. From this list, we now recommend the following neighborhoods base on their distance from Manhattan.
+
+
+
+
+
 
 
 
