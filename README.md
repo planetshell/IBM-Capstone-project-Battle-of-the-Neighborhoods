@@ -62,3 +62,20 @@ The above map shows the overall layout of the Queens neighborhoods in blue with 
 Interestingly the hotel map shows a large cluster of hotels in the neighborhoods that are close to mid-town Manhattan. Let view neighborhoods with the most hotels on a bar graph.
 
 <img src="Barchart of hotels in Queens.JPG" width=600>
+
+So, both the bar-graph and the above maps shows us that some of the Queens neighborhoods closest to mid-Manhattan also have the most hotels. One example is the Long Island city neighborhood with 8 hotels. This visual insight helps us to rule out some neighborhoods close to Manhattan has potential candidates to build a new hotel. Even though they are close to Manhattan, they also have too many hotels which would increase competition for the stakeholders.  
+
+### C.2 Modeling  
+
+So, I have used the visualization tools Folium and Matplotlib to gain some useful insight into the data. Now let used some machine learning tools to improve our results. I applied the K-means machine learning algorithm to a feature set formed from both the neighborhood and hotel datasets. Our feature set consist of the following.
+
+<img src="FeatureSet.jpg" width=500>
+
+
+Removing all categorical variables from the feature set we now have the following 
+
+<img src="FeatureSet2.jpg" width=350>
+
+This feature set of only numerical data was normalized and the K-means clustering algorithm applied with K=5. Results of the clusters was merged with the original neighborhood dataset. 
+
+<img src="table of Queens clustered neighborhoods.jpg" width=600>
