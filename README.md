@@ -96,6 +96,22 @@ From this table we can now see which cluster of neighborhoods are ideal to build
 
 After carefully analyzing each cluster it appears that cluster-2 satisfied our condition of neighborhoods closest to Manhattan with the minimum number of hotels. Looking deeper into cluster-2 we can narrow our choices down to neighborhoods with no hotels such as Astoria, Woodside, Steinway, Ravenswood, Jackson Heights, Hunts point and Sunnyside Gardens. From this list, we now recommend the following neighborhoods base on their distance from Manhattan.
 
+<img src="Final Queens neighborhood picks.JPG" width=500>
+
+Now let us look at the map of the clustered Queens neighborhoods 
+
+<img src="Map of Queens clustered neighborhoods.JPG" width=600>
+
+Looking at the map the clusters of the neighborhoods closest to Manhattan cluster-2 is in color blue. 
+
+# E. Discussion 
+The results obtained from my analysis is just a starting point for hotel companies looking to build a new hotel in Queens neighborhoods. The feature set used in my analysis to determine the ideal neighborhood or neighborhoods was limited to neighborhood location data(Lat, long), the distance from each Queens neighborhood to Manhattan(distance) and the number of existing hotel in each neighborhood(Hotel). Other dataset such as demographic, property value, taxi fares from each neighborhood, mass transit, and crime can be applied to refine the list of neighborhoods. Once a neighborhood has been picked then other dataset also may be needed to determine a suitable location within that neighborhood. 
+
+# F. Conclusion   
+The purpose of this project is to find the Queens neighborhoods or neighborhoods closest to Manhattan with the lowest number of existing hotels. The results of this analysis can be used by hotel companies to build hotels in Queens neighborhoods that are an alternative to the more expensive hotels in Manhattan. Manhattan bound business travelers and vacationers who can’t afford the high hotel cost in Manhattan can then reside in Queens hotels and commute to Manhattan. 
+After fetching data from several data sources and processing them into a clean data frame, I then apply the K-Means clustering algorithm and picked the cluster that closest to Manhattan with the lowest number of existing hotels. 
+The final decision of the on the optimal hotel location will be made by the stakeholders based on specific characteristic of each neighborhood in the cluster. As I mention before dataset on demographics, property value, traffic, mass transit, and crime can be applied to each neighborhood being considered. 
+
 
 
 
