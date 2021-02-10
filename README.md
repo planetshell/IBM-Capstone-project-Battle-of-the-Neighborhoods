@@ -96,7 +96,7 @@ From this table we can now see which cluster of neighborhoods are ideal to build
 
 After carefully analyzing each cluster it appears that cluster-2 satisfied our condition of neighborhoods closest to Manhattan with the minimum number of hotels. Looking deeper into cluster-2 we can narrow our choices down to neighborhoods with no hotels such as Astoria, Woodside, Steinway, Ravenswood, Jackson Heights, Hunts point and Sunnyside Gardens. From this list, we now recommend the following neighborhoods base on their distance from Manhattan.
 
-
+<img src="Final list.JPG" width=350>
 
 Now let us look at the map of the clustered Queens neighborhoods 
 
