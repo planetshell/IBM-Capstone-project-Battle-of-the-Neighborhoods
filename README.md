@@ -100,7 +100,7 @@ After carefully analyzing each cluster it appears that cluster-2 satisfied our c
 
 Now let us look at the map of the clustered Queens neighborhoods 
 
-
+<img src="Queens cluster map2.jpg" width=500>
 
 Looking at the map the clusters of the neighborhoods closest to Manhattan cluster-2 is in color blue. 
 
